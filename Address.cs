@@ -11,7 +11,6 @@ namespace csharp_lista_indirizzi
         public Address(string name, string surname, string street, string city, string province, string zip)
         {
             Name = name;
-            SecondName = "NA";
             Surname = surname;
             Street = street;
             City = city;

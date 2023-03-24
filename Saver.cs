@@ -20,13 +20,13 @@ namespace csharp_lista_indirizzi
             while (true)
             {
                 string? line = input.ReadLine();
+
                 if (line is null) return addresses;
 
 
                 var chunks = line.Split(',')!;
 
                 string name;
-                string secondName;
                 string surname;
                 string street;
                 string city;
@@ -51,6 +51,7 @@ namespace csharp_lista_indirizzi
 
             foreach (var address in addresses)
             {
+                output.WriteLine();
                 output.WriteLine($"{address.Name}, {address.SecondName}, {address.Surname}, {address.Street}, {address.City}, {address.Province}, {address.Zip}");
                 output.WriteLine();
             }
