@@ -1,16 +1,63 @@
-Name,Surname,Street,City,Province,ZIP:
 
-John, NA, Doe, 120 jefferson st., Riverside, NJ, 08075
-
-
-Jack, NA, McGinnis, 220 hobo Av., Phila, PA, 09119
-
-
-John Da Man, NA, Repici, 120 Jefferson St., Riverside, NJ, 08075
-
-
-Stephen, NA, Tyler, 7452 Terrace "At the Plaza" road, SomeTown, SD, 91234
+Nome: John
+Secondo nome: Non assegnato
+Cognome: Doe
+Via: 120 jefferson st.
+Città: Riverside
+Provincia: NJ
+CAP: 08075 NJ 08075
 
 
-Joan, NA, Jet, 9th at Terrace plc, Desert City, CO, 00123
+Nome: Jack
+Secondo nome: Non assegnato
+Cognome: McGinnis
+Via: 220 hobo Av.
+Città: Phila
+Provincia: PA
+CAP: 09119 PA 09119
+
+
+Nome: John Da Man
+Secondo nome: Non assegnato
+Cognome: Repici
+Via: 120 Jefferson St.
+Città: Riverside
+Provincia: NJ
+CAP: 08075 NJ 08075
+
+
+Nome: Stephen
+Secondo nome: Non assegnato
+Cognome: Tyler
+Via: 7452 Terrace "At the Plaza" road
+Città: SomeTown
+Provincia: SD
+CAP: 91234 SD 91234
+
+
+Nome: Joan
+Secondo nome: Anne
+Cognome: Jet
+Via: 9th at Terrace plc
+Città: Desert City
+Provincia: CO
+CAP: 00123 CO 00123
+
+
+Nome: Non assegnato
+Secondo nome: Non assegnato
+Cognome: Blankman
+Via: Non assegnato
+Città: New York
+Provincia:  NY
+CAP:  100101  NY  100101
+
+
+Nome: Joan
+Secondo nome: Non assegnato
+Cognome: Non assegnato
+Via: Non assegnato
+Città: SomeTown
+Provincia:  SD
+CAP:  00298  SD  00298
 

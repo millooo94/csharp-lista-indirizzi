@@ -8,17 +8,17 @@ namespace csharp_lista_indirizzi
 {
     public class Address
     {
-        public Address(string name, string surname, string street, string city, string province, string zip, string secondName = "NA")
+        public Address(string name, string secondName, string surname, string street, string city, string province, string zip )
         {
-            Name = name;
-            Surname = surname;
-            Street = street;
-            City = city;
-            Province = province;
-            Zip = zip;
+            Name = (name != "") ? name : "Non assegnato";
+            SecondName = (secondName != "") ? secondName : "Non assegnato";
+            Surname = (surname != "") ? surname : "Non assegnato";
+            Street = (street != "") ? street : "Non assegnato";
+            City = (city != "") ? city : "Non assegnato";
+            Province = (province != "") ? province : "Non assegnato";
+            Zip = zip ?? "Non assegnato";
         }
         
-
         public string Name { get; set; }
         public string Surname { get; set; }
         public string SecondName { get; set; }
